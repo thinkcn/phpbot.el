@@ -2,7 +2,7 @@
 
 ## Overview
 
-Emacs package to assist in PHP development
+Emacs package to assist in PHP development, This package relies heavily on [PHPBot](https://github.com/thinkcn/PHPBot), please make sure [PHPBot](https://github.com/thinkcn/PHPBot) is installed first.
 
 ## Usage 
 
@@ -16,7 +16,7 @@ Emacs package to assist in PHP development
 (require 'phpbot)
 
 (custom-set-variables
- '(phpbot-bin-path "/Users/coleflowers/antlr/build/phpbot"))
+ '(phpbot-bin-path "/path/to/phpbot"))
 
 ```
 
